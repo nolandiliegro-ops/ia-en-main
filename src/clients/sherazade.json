@@ -37,7 +37,7 @@
    "paras": [
     "Ton institut a déjà ce qui compte : un lieu, une équipe, des clients qui parlent d'un « moment hors du temps ».",
     "Ce qui manque, c'est du temps. L'IA peut prendre une bonne partie de ce qui te coûte de l'énergie chaque jour : répondre, relancer, publier, rappeler.",
-    "Je viens deux jours chez toi, j'installe tout sur ton ordinateur, à ton nom, et je t'apprends à t'en servir. Ensuite, c'est toi qui pilotes."
+    "Je viens deux jours chez toi. Je configure Claude pour Les Bains avec toi : ton bloc d'instructions, tes skills, sur ton ordinateur et à ton nom. Et je te fais éviter un an d'erreurs. Ensuite, c'est toi qui pilotes."
    ],
    "sig": "Nolan"
   },
@@ -339,17 +339,71 @@
   },
   {
    "type": "list",
+   "dark": true,
+   "numbered": true,
+   "label": "Ce que tu achètes vraiment",
+   "title": "Un Claude <em>qui te connaît</em>",
+   "intro": "Un Claude mal configuré répond à côté. Le mien, je le règle avec toi, pour qu'il marche encore dans un an.",
+   "items": [
+    [
+     "Un questionnaire sur Les Bains",
+     "tes soins, tes prix, ton ton, tes règles : je le transforme en ton bloc d'instructions. Claude te connaît dès le premier message."
+    ],
+    [
+     "Mes skills, prêtes à l'emploi",
+     "celles que j'utilise tous les jours : réponses aux avis, posts, mails, devis. Testées chez moi avant d'arriver chez toi."
+    ],
+    [
+     "Tes skills, créées avec toi",
+     "sur tes vraies tâches du quotidien, à ta façon de travailler."
+    ],
+    [
+     "Un an d'erreurs que tu ne feras pas",
+     "j'ai tout testé, tout raté au moins une fois : tu gagnes ces mois-là."
+    ]
+   ]
+  },
+  {
+   "type": "cards",
+   "label": "Un an de tests, résumé",
+   "title": "Les pièges <em>que tu évites</em>",
+   "items": [
+    [
+     "Laisser l'IA envoyer seule",
+     "chez toi, elle prépare et tu valides : rien ne part sans toi."
+    ],
+    [
+     "Lui parler de façon floue",
+     "ton bloc d'instructions répond à sa place : plus de réponses à côté."
+    ],
+    [
+     "Repartir de zéro à chaque fois",
+     "tes projets gardent la mémoire de tout ce qu'on a réglé."
+    ],
+    [
+     "Mettre tes codes dans une conversation",
+     "jamais : je te montre où ils vont, et où ils ne vont pas."
+    ],
+    [
+     "Croire qu'un outil marche sans le tester",
+     "on teste tout ensemble, sur tes vrais cas, avant que je parte."
+    ]
+   ],
+   "outro": "C'est ça, les 1 000 € : pas deux jours de cours, un an de travail que tu n'as pas à refaire."
+  },
+  {
+   "type": "list",
    "label": "Comment ça se passe",
    "title": "Deux jours, <em>et tu es autonome</em>",
    "numbered": true,
    "items": [
     [
      "Jour 1 · un lundi",
-     "l'institut est fermé : on liste ce qui te prend du temps, on installe Claude sur ton ordinateur, à ton nom, avec tes soins et ta façon de parler."
+     "l'institut est fermé : questionnaire, ton bloc d'instructions, Claude installé sur ton ordinateur à ton nom, mes skills posées."
     ],
     [
      "Jour 2 · le mardi",
-     "on branche ta messagerie et ton agenda, on corrige le téléphone, tu testes tout toi-même."
+     "on crée tes skills ensemble, on branche ta messagerie et ton agenda, on corrige le téléphone, tu testes tout toi-même."
     ],
     [
      "Ensuite",
@@ -366,9 +420,9 @@
     {
      "tag": "Inclus dans les 2 jours",
      "items": [
-      "Ton Claude configuré pour Les Bains, à ton nom",
-      "Réponses aux avis et aux messages préparées pour toi",
-      "Tes posts et visuels de la semaine",
+      "Ton bloc d'instructions et tes skills, créés avec toi",
+      "Ton Claude installé et configuré, à ton nom",
+      "Réponses aux avis, messages et posts préparés",
       "Diagnostic et correction de ton agent téléphonique"
      ]
     },
@@ -395,7 +449,7 @@
      "tag": "Les 2 jours",
      "name": "Installation sur place",
      "price": "1 000 €",
-     "sub": "HT, de société à société"
+     "sub": "HT · questionnaire, instructions, skills, installation"
     },
     {
      "tag": "Ensuite, au choix",
