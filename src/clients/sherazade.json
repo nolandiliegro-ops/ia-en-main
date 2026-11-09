@@ -389,63 +389,85 @@
    ]
   },
   {
-   "type": "catalog",
-   "label": "L'accompagnement",
-   "title": "Ensuite, <em>mois après mois</em>",
-   "intro": "Les 2 jours posent les bases. On ajoute le reste petit à petit, à ton rythme.",
-   "groups": [
-    {
-     "tag": "Abonnement Croissance · un outil par mois",
-     "items": [
-      "Tes mails triés et un résumé chaque matin",
-      "Reels et vidéos préparés automatiquement",
-      "Relances clients et demandes d'avis automatiques",
-      "Réponses Insta et WhatsApp préparées pour toi"
-     ]
-    },
-    {
-     "tag": "Gros chantiers · sur devis",
-     "alt": true,
-     "items": [
-      "Ton génie : un agent IA à ton image, branché à tout",
-      "Ton tableau de bord codé sur mesure",
-      "Une ambassadrice IA en série pour tes Reels",
-      "Un agent vocal sur mesure, si le tien ne suffit pas",
-      "Refonte du site et de la fiche Google"
-     ]
-    }
+   "type": "offer",
+   "label": "L'investissement",
+   "title": "Tout est <em>compris</em>",
+   "tag": "Les 2 jours chez toi",
+   "price": "1 000 €",
+   "unit": "HT · une seule fois",
+   "pitch": "Tu repars avec un Claude réglé pour Les Bains, des outils qui tournent, et la méthode pour continuer seul.",
+   "items": [
+    [
+     "Installation complète",
+     "Claude sur ton ordinateur, à ton nom"
+    ],
+    [
+     "Ton bloc d'instructions",
+     "tiré du questionnaire : Claude te connaît"
+    ],
+    [
+     "Mes skills + les tiennes",
+     "avis, posts, messages, mails, et celles créées avec toi"
+    ],
+    [
+     "Tout relié",
+     "mails, agenda, documents, site et réseaux"
+    ],
+    [
+     "Formation",
+     "tu fais toi-même, je te regarde faire"
+    ],
+    [
+     "Optimisation",
+     "ton agent téléphonique et tes réglages revus"
+    ],
+    [
+     "Zéro temps perdu",
+     "un an d'erreurs que tu ne feras pas"
+    ],
+    [
+     "Toutes tes questions",
+     "pendant les 2 jours et le mois qui suit"
+    ]
    ]
   },
   {
-   "type": "price",
-   "label": "L'investissement",
-   "title": "Le <em>prix</em>",
+   "type": "offer",
+   "label": "Ensuite",
+   "title": "Un seul <em>accompagnement</em>",
+   "tag": "Accompagnement mensuel",
+   "price": "250 €",
+   "unit": "HT / mois · sans surprise",
+   "pitch": "Je reste à côté de toi : tout continue de marcher, et tu progresses chaque mois. Tes abonnements aux outils restent à ton nom.",
    "items": [
-    {
-     "tag": "Les 2 jours",
-     "name": "Installation sur place",
-     "price": "1 000 €",
-     "sub": "HT · questionnaire, instructions, skills, installation"
-    },
-    {
-     "tag": "Ensuite, au choix",
-     "name": "Essentiel",
-     "price": "190 €",
-     "sub": "HT / mois · suivi, corrections, réponses à tes questions"
-    },
-    {
-     "name": "Croissance",
-     "price": "390 €",
-     "sub": "HT / mois · tout l'Essentiel + un nouvel outil chaque mois + un point visio"
-    },
-    {
-     "tag": "À la carte",
-     "name": "Options",
-     "price": "sur devis",
-     "sub": "génie, tableau de bord, ambassadrice IA, agent vocal… selon tes réponses"
-    }
+    [
+     "Suivi et corrections",
+     "si un outil change, je répare"
+    ],
+    [
+     "Réponses à tes questions",
+     "par message, sans attendre"
+    ],
+    [
+     "Mises à jour",
+     "nouveaux soins, prix, offres dans ton Claude"
+    ],
+    [
+     "Un point visio par mois",
+     "ce qui marche, ce qu'on améliore"
+    ]
    ],
-   "outro": "Tes abonnements aux outils sont à ton nom, payés directement aux éditeurs."
+   "extra": {
+    "tag": "À la carte · sur devis",
+    "items": [
+     "Ton génie : un agent IA à ton image",
+     "Tableau de bord sur mesure",
+     "Reels et vidéos automatiques, ambassadrice IA",
+     "Mails triés et résumé chaque matin",
+     "Relances clients et demandes d'avis",
+     "Agent vocal sur mesure, site et fiche Google"
+    ]
+   }
   },
   {
    "type": "text",
