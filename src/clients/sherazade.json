@@ -222,6 +222,39 @@
    "outro": "Réservations, bons cadeaux, réseaux, avis et équipe sur un seul écran, codé pour toi. On regarde ensemble ce que tes outils permettent de relier."
   },
   {
+   "type": "genie",
+   "dark": true,
+   "label": "Ton génie",
+   "title": "Un génie <em>dans ta théière</em>",
+   "intro": "Comme les agents que j'ai créés pour mes boutiques : un personnage à l'image des Bains, connecté à tout. Exemple de conversation :",
+   "img": "../media/sherazade-genie.jpg",
+   "name": "Le Génie des Bains",
+   "msgs": [
+    [
+     "c",
+     "Bonsoir, vous avez de la place samedi pour un massage duo ?"
+    ],
+    [
+     "b",
+     "Bonsoir ! Samedi il reste 15 h et 17 h 30. Je vous envoie le lien pour réserver ?"
+    ],
+    [
+     "c",
+     "Oui, et je peux offrir un bon cadeau ?"
+    ],
+    [
+     "b",
+     "Bien sûr : choisissez un soin ou un montant ici, il part par mail tout de suite."
+    ]
+   ],
+   "items": [
+    "Il connaît tes soins, tes prix, tes horaires et tes bons cadeaux",
+    "Il répond sur ton site, WhatsApp et Insta, même la nuit",
+    "Branché à tes outils : réservations, mails, tableau de bord",
+    "Il te passe la main quand il le faut"
+   ]
+  },
+  {
    "type": "cards",
    "dark": true,
    "label": "Dans ta vie de tous les jours",
@@ -367,13 +400,14 @@
       "Tes mails triés et un résumé chaque matin",
       "Reels et vidéos préparés automatiquement",
       "Relances clients et demandes d'avis automatiques",
-      "Assistant WhatsApp et Insta qui répond 24h/24"
+      "Réponses Insta et WhatsApp préparées pour toi"
      ]
     },
     {
      "tag": "Gros chantiers · sur devis",
      "alt": true,
      "items": [
+      "Ton génie : un agent IA à ton image, branché à tout",
       "Ton tableau de bord codé sur mesure",
       "Une ambassadrice IA en série pour tes Reels",
       "Un agent vocal sur mesure, si le tien ne suffit pas",
@@ -408,7 +442,7 @@
      "tag": "À la carte",
      "name": "Options",
      "price": "sur devis",
-     "sub": "tableau de bord, ambassadrice IA, agent vocal, site… selon tes réponses"
+     "sub": "génie, tableau de bord, ambassadrice IA, agent vocal… selon tes réponses"
     }
    ],
    "outro": "Tes abonnements aux outils sont à ton nom, payés directement aux éditeurs."
@@ -454,7 +488,7 @@
    "options": [
     "Agent téléphonique qui réserve",
     "Répondre aux messages",
-    "Assistant WhatsApp 24h/24",
+    "Un génie qui répond 24h/24",
     "Posts et visuels",
     "Reels et vidéos",
     "Ambassadrice IA",
