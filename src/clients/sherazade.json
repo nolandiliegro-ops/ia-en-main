@@ -148,71 +148,141 @@
    "nocap": true
   },
   {
-   "type": "dash",
+   "type": "dash2",
    "label": "Ton tableau de bord",
    "title": "Toute ton activité <em>sur ton téléphone</em>",
-   "app": "Les Bains",
+   "app": "Les Bains · aujourd'hui",
+   "badge": "Exemple · chiffres fictifs",
    "kpis": [
     [
-     "Réservations cette semaine",
-     "38"
-    ],
-    [
-     "Bons cadeaux vendus",
-     "12"
+     "Réservations semaine",
+     "38",
+     "+12 %"
     ],
     [
      "Chiffre du mois",
-     "9 840 €"
-    ]
-   ],
-   "bars": {
-    "title": "Réservations par jour",
-    "items": [
-     [
-      "mar",
-      5
-     ],
-     [
-      "mer",
-      4
-     ],
-     [
-      "jeu",
-      6
-     ],
-     [
-      "ven",
-      8
-     ],
-     [
-      "sam",
-      11
-     ],
-     [
-      "dim",
-      9
-     ]
-    ]
-   },
-   "rows": [
-    [
-     "11:00",
-     "Hammam + gommage · 2 pers.",
-     "Résa"
+     "9 840 €",
+     "+8 %"
     ],
     [
-     "14:30",
-     "Massage duo",
-     "Site"
+     "Panier moyen",
+     "86 €",
+     "+5 €"
     ],
     [
-     "16:00",
-     "Bon cadeau utilisé · rituel",
-     "Bon"
+     "Bons cadeaux",
+     "12",
+     "+4"
     ]
    ],
-   "outro": "Codé pour toi et relié à tes réservations, tes bons cadeaux et ton site. Chiffres d'exemple : on regarde ensemble ce que tes outils permettent de relier."
+   "social": [
+    [
+     "TikTok",
+     "2 840",
+     "abonnés · 1,2 M vues sur l'épinglée (réel)"
+    ],
+    [
+     "Instagram",
+     "+215",
+     "abonnés ce mois"
+    ],
+    [
+     "Avis Google",
+     "4,9",
+     "+6 avis ce mois"
+    ]
+   ],
+   "teamTitle": "L'équipe aujourd'hui",
+   "team": [
+    [
+     "Samira",
+     "hammam · 4 clientes",
+     "en soin",
+     "on"
+    ],
+    [
+     "Lina",
+     "gommages · 6 rdv",
+     "en soin",
+     "on"
+    ],
+    [
+     "Yasmine",
+     "massages · 5 rdv",
+     "pause 15 min",
+     "off"
+    ],
+    [
+     "Accueil",
+     "2 bons cadeaux à valider",
+     "à faire",
+     "ok"
+    ]
+   ],
+   "outro": "Réservations, bons cadeaux, réseaux, avis et équipe sur un seul écran, codé pour toi. On regarde ensemble ce que tes outils permettent de relier."
+  },
+  {
+   "type": "live",
+   "label": "Ta carte vivante",
+   "title": "Ton institut, <em>en direct</em>",
+   "intro": "Qui est en cabine, ce qui est libre, ce qui se prépare : ton hammam vu d'en haut, en temps réel.",
+   "rooms": [
+    {
+     "n": "Accueil",
+     "x": 2,
+     "y": 2,
+     "w": 30,
+     "h": 34,
+     "s": "free",
+     "who": "Toi"
+    },
+    {
+     "n": "Hammam",
+     "x": 35,
+     "y": 2,
+     "w": 63,
+     "h": 34,
+     "s": "occ",
+     "who": "4 clientes · Samira"
+    },
+    {
+     "n": "Cabine 1",
+     "x": 2,
+     "y": 40,
+     "w": 30,
+     "h": 28,
+     "s": "occ",
+     "who": "Gommage · Lina"
+    },
+    {
+     "n": "Cabine duo",
+     "x": 35,
+     "y": 40,
+     "w": 35,
+     "h": 28,
+     "s": "occ",
+     "who": "Massage duo · Yasmine"
+    },
+    {
+     "n": "Visage",
+     "x": 73,
+     "y": 40,
+     "w": 25,
+     "h": 28,
+     "s": "prep",
+     "who": "16:00"
+    },
+    {
+     "n": "Salon de thé",
+     "x": 2,
+     "y": 72,
+     "w": 96,
+     "h": 26,
+     "s": "free",
+     "who": "Thé offert après soin"
+    }
+   ],
+   "outro": "En option, la version 3D animée que j'ai construite pour d'autres entreprises : la « carte vivante »."
   },
   {
    "type": "cards",
@@ -307,10 +377,10 @@
      "alt": true,
      "items": [
       "Reels et vidéos automatiques, avec ou sans ambassadrice IA",
-      "Tableau de bord : réservations, bons cadeaux, chiffre",
+      "Tableau de bord : réservations, réseaux, avis, équipe",
+      "Carte vivante 3D de ton institut, en direct",
       "Tes mails triés et un résumé chaque matin",
-      "Assistant WhatsApp et Insta qui répond 24h/24",
-      "Relances clients et demandes d'avis automatiques",
+      "Assistant WhatsApp, relances et demandes d'avis",
       "Agent vocal sur mesure, site et fiche Google"
      ]
     }
@@ -386,17 +456,17 @@
    "title": "Qu'aimerais-tu que <em>l'IA fasse</em> ?",
    "intro": "Tout ce qui te ferait plaisir, même si ça paraît compliqué.",
    "options": [
-    "Un agent téléphonique qui réserve",
+    "Agent téléphonique qui réserve",
     "Répondre aux messages",
     "Assistant WhatsApp 24h/24",
-    "Posts et visuels chaque semaine",
-    "Reels et vidéos chaque semaine",
-    "Une ambassadrice IA",
+    "Posts et visuels",
+    "Reels et vidéos",
+    "Ambassadrice IA",
     "Photos pro de mes soins",
     "Faire revenir les clients",
-    "Demander un avis après un soin",
+    "Demander des avis",
     "Mes mails triés tout seuls",
-    "Un tableau de bord",
+    "Tableau de bord + carte 3D",
     "Mettre à jour mon site"
    ]
   },
