@@ -115,28 +115,19 @@
    "outro": "Tu pourras en faire autant toi-même, quand tu veux."
   },
   {
-   "type": "cards",
-   "label": "Au quotidien",
-   "title": "Ce que l'IA fait <em>pour toi</em>",
+   "type": "video",
+   "dark": true,
+   "label": "Tes vidéos",
+   "title": "Une photo, <em>un Reel</em>",
+   "intro": "Ta photo du hammam, animée par l'IA puis montée automatiquement avec ton texte et ton bouton de réservation.",
+   "src": "../media/sherazade-reel.mp4",
+   "poster": "../media/sherazade-reel.jpg",
+   "cap": "Fait à partir de ta photo",
    "items": [
-    [
-     "Répondre aux avis",
-     "une réponse t'attend, tu publies d'un clic"
-    ],
-    [
-     "Tes posts de la semaine",
-     "textes et visuels dans ton style"
-    ],
-    [
-     "Les messages clients",
-     "Insta et WhatsApp préparés pour toi"
-    ],
-    [
-     "Faire revenir les clients",
-     "relance après un soin, offres de saison"
-    ]
-   ],
-   "outro": "Rien ne part sans ton accord : l'IA prépare, tu décides."
+    "Des Reels et des TikTok prêts à publier chaque semaine",
+    "Tes vidéos brutes montées et sous-titrées automatiquement",
+    "Publication programmée sur Insta et TikTok"
+   ]
   },
   {
    "type": "list",
@@ -156,6 +147,35 @@
      "Ensuite",
      "un guide simple, un plan sur 30 jours, et moi en appui si tu veux."
     ]
+   ]
+  },
+  {
+   "type": "catalog",
+   "label": "Tout ce que je sais brancher",
+   "title": "Et on peut <em>aller plus loin</em>",
+   "intro": "Les 2 jours posent les bases. Ensuite, tu ajoutes ce que tu veux, quand tu veux.",
+   "groups": [
+    {
+     "tag": "Inclus dans les 2 jours",
+     "items": [
+      "Ton Claude configuré pour Les Bains, à ton nom",
+      "Réponses aux avis et aux messages préparées pour toi",
+      "Tes posts et visuels de la semaine",
+      "Diagnostic et correction de ton agent téléphonique"
+     ]
+    },
+    {
+     "tag": "En option",
+     "alt": true,
+     "items": [
+      "Reels et vidéos automatiques chaque semaine",
+      "Assistant WhatsApp et Insta qui répond 24h/24",
+      "Relances clients et demandes d'avis automatiques",
+      "Agent vocal sur mesure si le tien ne suffit pas",
+      "Tableau de bord de ton chiffre d'affaires",
+      "Site et fiche Google optimisés"
+     ]
+    }
    ]
   },
   {
@@ -179,6 +199,12 @@
      "name": "Croissance",
      "price": "390 €",
      "sub": "HT / mois · tout l'Essentiel + un nouvel outil chaque mois + un point visio"
+    },
+    {
+     "tag": "À la carte",
+     "name": "Options",
+     "price": "sur devis",
+     "sub": "vidéos, assistant WhatsApp, agent vocal, site… selon tes réponses"
     }
    ],
    "outro": "Tes abonnements aux outils sont à ton nom, payés directement aux éditeurs."
@@ -224,7 +250,9 @@
    "options": [
     "Un agent téléphonique qui réserve vraiment",
     "Répondre aux messages",
+    "Assistant WhatsApp 24h/24",
     "Posts et visuels chaque semaine",
+    "Reels et vidéos chaque semaine",
     "Photos pro de mes soins",
     "SMS ou newsletter promo",
     "Faire revenir les clients",
