@@ -222,69 +222,6 @@
    "outro": "Réservations, bons cadeaux, réseaux, avis et équipe sur un seul écran, codé pour toi. On regarde ensemble ce que tes outils permettent de relier."
   },
   {
-   "type": "live",
-   "label": "Ta carte vivante",
-   "title": "Ton institut, <em>en direct</em>",
-   "intro": "Qui est en cabine, ce qui est libre, ce qui se prépare : ton hammam vu d'en haut, en temps réel.",
-   "rooms": [
-    {
-     "n": "Accueil",
-     "x": 2,
-     "y": 2,
-     "w": 30,
-     "h": 34,
-     "s": "free",
-     "who": "Toi"
-    },
-    {
-     "n": "Hammam",
-     "x": 35,
-     "y": 2,
-     "w": 63,
-     "h": 34,
-     "s": "occ",
-     "who": "4 clientes · Samira"
-    },
-    {
-     "n": "Cabine 1",
-     "x": 2,
-     "y": 40,
-     "w": 30,
-     "h": 28,
-     "s": "occ",
-     "who": "Gommage · Lina"
-    },
-    {
-     "n": "Cabine duo",
-     "x": 35,
-     "y": 40,
-     "w": 35,
-     "h": 28,
-     "s": "occ",
-     "who": "Massage duo · Yasmine"
-    },
-    {
-     "n": "Visage",
-     "x": 73,
-     "y": 40,
-     "w": 25,
-     "h": 28,
-     "s": "prep",
-     "who": "16:00"
-    },
-    {
-     "n": "Salon de thé",
-     "x": 2,
-     "y": 72,
-     "w": 96,
-     "h": 26,
-     "s": "free",
-     "who": "Thé offert après soin"
-    }
-   ],
-   "outro": "En option, la version 3D animée que j'ai construite pour d'autres entreprises : la « carte vivante »."
-  },
-  {
    "type": "cards",
    "dark": true,
    "label": "Dans ta vie de tous les jours",
@@ -432,7 +369,6 @@
      "items": [
       "Reels et vidéos automatiques, avec ou sans ambassadrice IA",
       "Tableau de bord : réservations, réseaux, avis, équipe",
-      "Carte vivante 3D de ton institut, en direct",
       "Tes mails triés et un résumé chaque matin",
       "Assistant WhatsApp, relances et demandes d'avis",
       "Agent vocal sur mesure, site et fiche Google"
@@ -520,7 +456,7 @@
     "Faire revenir les clients",
     "Demander des avis",
     "Mes mails triés tout seuls",
-    "Tableau de bord + carte 3D",
+    "Tableau de bord",
     "Mettre à jour mon site"
    ]
   },
