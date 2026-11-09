@@ -55,8 +55,8 @@
      "pas seulement de prix"
     ],
     [
-     "Insta, TikTok, Facebook, WhatsApp",
-     "déjà en place"
+     "Ta vidéo TikTok épinglée : 1,2 M de vues",
+     "2 840 abonnés, 78 500 j'aime : chez toi, l'humain et la vidéo marchent (relevé le 9 nov.)"
     ],
     [
      "Toi",
@@ -104,12 +104,14 @@
     {
      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_3GQlfFCxTsvuOLmSkOzS19wh9sw/hf_20261109_205548_1f3f263e-d7d1-4beb-8232-a82ec49e8cb3.png",
      "cap": "Affiche promo",
-     "ia": true
+     "ia": true,
+     "pos": "center top"
     },
     {
      "src": "https://d8j0ntlcm91z4.cloudfront.net/user_3GQlfFCxTsvuOLmSkOzS19wh9sw/hf_20261109_205549_24f4d2c5-56d9-401c-a963-747eeb608bea.png",
      "cap": "Story Insta",
-     "ia": true
+     "ia": true,
+     "pos": "center top"
     }
    ],
    "outro": "Tu pourras en faire autant toi-même, quand tu veux."
@@ -128,6 +130,142 @@
     "Tes vidéos brutes montées et sous-titrées automatiquement",
     "Publication programmée sur Insta et TikTok"
    ]
+  },
+  {
+   "type": "video",
+   "label": "Des humains à l'image",
+   "title": "Une ambassadrice, <em>chez toi</em>",
+   "intro": "Une femme créée par l'IA, dans ton propre hammam, pour tes Reels et tes TikTok. En plus de ton influenceuse, ou pour publier chaque semaine sans tournage.",
+   "src": "../media/sherazade-ambassadrice.mp4",
+   "poster": "../media/sherazade-ambassadrice.jpg",
+   "cap": "Créée par IA",
+   "items": [
+    "Toujours disponible, toujours dans ton style",
+    "Mentionnée « créée par IA », comme le demande la réglementation européenne",
+    "Ou bien : tes vraies vidéos montées automatiquement"
+   ],
+   "ratio": "9/16",
+   "nocap": true
+  },
+  {
+   "type": "dash",
+   "label": "Ton tableau de bord",
+   "title": "Toute ton activité <em>sur ton téléphone</em>",
+   "app": "Les Bains",
+   "kpis": [
+    [
+     "Réservations cette semaine",
+     "38"
+    ],
+    [
+     "Bons cadeaux vendus",
+     "12"
+    ],
+    [
+     "Chiffre du mois",
+     "9 840 €"
+    ]
+   ],
+   "bars": {
+    "title": "Réservations par jour",
+    "items": [
+     [
+      "mar",
+      5
+     ],
+     [
+      "mer",
+      4
+     ],
+     [
+      "jeu",
+      6
+     ],
+     [
+      "ven",
+      8
+     ],
+     [
+      "sam",
+      11
+     ],
+     [
+      "dim",
+      9
+     ]
+    ]
+   },
+   "rows": [
+    [
+     "11:00",
+     "Hammam + gommage · 2 pers.",
+     "Résa"
+    ],
+    [
+     "14:30",
+     "Massage duo",
+     "Site"
+    ],
+    [
+     "16:00",
+     "Bon cadeau utilisé · rituel",
+     "Bon"
+    ]
+   ],
+   "outro": "Codé pour toi et relié à tes réservations, tes bons cadeaux et ton site. Chiffres d'exemple : on regarde ensemble ce que tes outils permettent de relier."
+  },
+  {
+   "type": "cards",
+   "dark": true,
+   "label": "Dans ta vie de tous les jours",
+   "title": "Ça change <em>ta semaine</em>",
+   "items": [
+    [
+     "Tes mails triés tout seuls",
+     "clients, fournisseurs, factures, pub : chacun dans son tiroir"
+    ],
+    [
+     "Un résumé chaque matin",
+     "rendez-vous, mails importants, chiffres d'hier, sur ton téléphone"
+    ],
+    [
+     "Tes factures surveillées",
+     "une alerte avant chaque prélèvement, plus de surprise"
+    ],
+    [
+     "Tu parles, c'est noté",
+     "une idée, une tâche dictée en vocal, rangée au bon endroit"
+    ]
+   ],
+   "outro": "Moins d'écran le soir : l'outil prépare, tu valides en deux minutes."
+  },
+  {
+   "type": "list",
+   "label": "Ce que je fais déjà tourner",
+   "title": "Tout ça, <em>je l'utilise moi-même</em>",
+   "items": [
+    [
+     "Mon atelier de trottinettes",
+     "on dicte une commande de pièces en vocal, elle part dans le bon tableau"
+    ],
+    [
+     "Mon assistant perso",
+     "brief du matin, mails, agenda et idées sur Telegram"
+    ],
+    [
+     "Ma trésorerie",
+     "une alerte à 8 h avec les prélèvements des 3 jours à venir"
+    ],
+    [
+     "Mon site de pièces détachées",
+     "catalogue de 50 marques, compatibilités calculées automatiquement"
+    ],
+    [
+     "Des sites clients",
+     "restaurant, artisan, événementiel : mis à jour depuis le téléphone"
+    ]
+   ],
+   "outro": "Je ne te vends pas une théorie : je t'installe ce qui marche déjà chez moi."
   },
   {
    "type": "list",
@@ -168,12 +306,12 @@
      "tag": "En option",
      "alt": true,
      "items": [
-      "Reels et vidéos automatiques chaque semaine",
+      "Reels et vidéos automatiques, avec ou sans ambassadrice IA",
+      "Tableau de bord : réservations, bons cadeaux, chiffre",
+      "Tes mails triés et un résumé chaque matin",
       "Assistant WhatsApp et Insta qui répond 24h/24",
       "Relances clients et demandes d'avis automatiques",
-      "Agent vocal sur mesure si le tien ne suffit pas",
-      "Tableau de bord de ton chiffre d'affaires",
-      "Site et fiche Google optimisés"
+      "Agent vocal sur mesure, site et fiche Google"
      ]
     }
    ]
@@ -204,7 +342,7 @@
      "tag": "À la carte",
      "name": "Options",
      "price": "sur devis",
-     "sub": "vidéos, assistant WhatsApp, agent vocal, site… selon tes réponses"
+     "sub": "vidéos, ambassadrice IA, tableau de bord, WhatsApp… selon tes réponses"
     }
    ],
    "outro": "Tes abonnements aux outils sont à ton nom, payés directement aux éditeurs."
@@ -246,20 +384,20 @@
    "short": "Ce que l'IA devrait faire",
    "label": "Question 2 / 8",
    "title": "Qu'aimerais-tu que <em>l'IA fasse</em> ?",
-   "intro": "Tout ce qui te ferait plaisir, même si ça te paraît compliqué.",
+   "intro": "Tout ce qui te ferait plaisir, même si ça paraît compliqué.",
    "options": [
-    "Un agent téléphonique qui réserve vraiment",
+    "Un agent téléphonique qui réserve",
     "Répondre aux messages",
     "Assistant WhatsApp 24h/24",
     "Posts et visuels chaque semaine",
     "Reels et vidéos chaque semaine",
+    "Une ambassadrice IA",
     "Photos pro de mes soins",
-    "SMS ou newsletter promo",
     "Faire revenir les clients",
     "Demander un avis après un soin",
-    "Mettre à jour mon site",
-    "Accueil en anglais",
-    "Suivre mon chiffre d'affaires"
+    "Mes mails triés tout seuls",
+    "Un tableau de bord",
+    "Mettre à jour mon site"
    ]
   },
   {
