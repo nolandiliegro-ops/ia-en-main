@@ -148,6 +148,37 @@
    "nocap": true
   },
   {
+   "type": "list",
+   "dark": true,
+   "numbered": true,
+   "label": "Des clients qui arrivent",
+   "title": "Ta pub Meta, <em>en pilote automatique</em>",
+   "intro": "Mon point fort : l'acquisition sur Facebook et Instagram, branchée et automatisée de bout en bout.",
+   "items": [
+    [
+     "Tes visuels et tes Reels deviennent des pubs",
+     "faits à partir de tes photos, à tes couleurs"
+    ],
+    [
+     "Ciblées sur Marseille et ta clientèle",
+     "femmes, couples, cartes cadeaux à l'approche des fêtes"
+    ],
+    [
+     "Chaque demande suivie",
+     "elle arrive dans ton tableau de bord et elle est relancée automatiquement"
+    ],
+    [
+     "Un rapport chaque lundi",
+     "ce que tu as dépensé, ce que ça t'a ramené"
+    ],
+    [
+     "On coupe ce qui ne marche pas",
+     "le budget va aux pubs qui remplissent tes créneaux"
+    ]
+   ],
+   "outro": "Le budget pub est payé directement à Meta, sur ton compte."
+  },
+  {
    "type": "dash2",
    "label": "Ton tableau de bord",
    "title": "Toute ton activité <em>sur ton téléphone</em>",
@@ -389,13 +420,24 @@
    ]
   },
   {
+   "type": "text",
+   "dark": true,
+   "label": "Plus qu'un outil",
+   "title": "Ça peut changer <em>ta vie, même perso</em>",
+   "paras": [
+    "Ce que je te donne ne sert pas qu'aux Bains. Une fois que tu sais te servir de ces outils, ils t'ouvrent des portes partout : tes projets, tes idées, ta façon de t'organiser, ta vie de tous les jours.",
+    "Moi, ça m'a tout changé. Je suis convaincu que ce sera un des meilleurs investissements de ta vie."
+   ],
+   "sig": "Nolan"
+  },
+  {
    "type": "offer",
    "label": "L'investissement",
    "title": "Tout est <em>compris</em>",
    "tag": "Les 2 jours chez toi",
    "price": "1 000 €",
-   "unit": "HT · une seule fois",
-   "pitch": "Tu repars avec un Claude réglé pour Les Bains, des outils qui tournent, et la méthode pour continuer seul.",
+   "unit": "une seule fois · sans TVA",
+   "pitch": "Tu repars avec un Claude réglé pour Les Bains, des outils qui tournent, et la méthode pour continuer seul. Prix net : TVA non applicable, article 293 B du CGI (auto-entrepreneur).",
    "items": [
     [
      "Installation complète",
@@ -437,8 +479,8 @@
    "title": "Un seul <em>accompagnement</em>",
    "tag": "Accompagnement mensuel",
    "price": "250 €",
-   "unit": "HT / mois · sans surprise",
-   "pitch": "Je reste à côté de toi : tout continue de marcher, et tu progresses chaque mois. Tes abonnements aux outils restent à ton nom.",
+   "unit": "par mois · sans TVA",
+   "pitch": "Je reste à côté de toi : tout continue de marcher, et tu progresses chaque mois.",
    "items": [
     [
      "Suivi et corrections",
@@ -461,10 +503,10 @@
     "tag": "À la carte · sur devis",
     "items": [
      "Ton génie : un agent IA à ton image",
+     "Publicités Meta automatisées (Facebook, Instagram)",
      "Tableau de bord sur mesure",
      "Reels et vidéos automatiques, ambassadrice IA",
-     "Mails triés et résumé chaque matin",
-     "Relances clients et demandes d'avis",
+     "Mails triés, relances clients et demandes d'avis",
      "Agent vocal sur mesure, site et fiche Google"
     ]
    }
@@ -519,7 +561,7 @@
     "Demander des avis",
     "Mes mails triés tout seuls",
     "Tableau de bord",
-    "Mettre à jour mon site"
+    "Pubs Facebook et Insta qui ramènent des clients"
    ]
   },
   {
