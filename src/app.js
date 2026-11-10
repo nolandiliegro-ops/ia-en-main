@@ -8,7 +8,7 @@ function sec(cls,html,style){const s=document.createElement('section');s.classNa
 function lbl(t){return t?'<div class="lb">'+t+'</div>':''}
 C.screens.forEach(sc=>{
  const d=sc.dark?'dk':'';
- if(sc.type==='cover'){sec('cover','<div class="brand">'+sc.brand+'</div><h1>'+sc.title+'</h1><p>'+sc.text+'</p><div class="by">'+sc.by+'</div>',"background-image:url('"+sc.img+"')")}
+ if(sc.type==='cover'){sec('cover','<div class="brand">'+sc.brand+'</div><h1>'+sc.title+'</h1><p>'+sc.text+'</p>'+(sc.logo?'<img class="mk" src="'+sc.logo+'" alt="IA EN MAIN">':'')+'<div class="by">'+sc.by+'</div>',"background-image:url('"+sc.img+"')")}
  else if(sc.type==='text'){sec(d,lbl(sc.label)+'<h2>'+sc.title+'</h2>'+sc.paras.map(p=>'<p style="margin-bottom:.8rem">'+p+'</p>').join('')+(sc.sig?'<div class="sig">'+sc.sig+'</div>':''))}
  else if(sc.type==='list'){sec(d,lbl(sc.label)+'<h2>'+sc.title+'</h2>'+(sc.intro?'<p class="sm" style="margin-bottom:.6rem">'+sc.intro+'</p>':'')+'<ul class="li">'+sc.items.map((it,i)=>'<li><span class="k">'+(sc.numbered?i+1:'·')+'</span><div><b>'+it[0]+'</b>'+(it[1]?'<span class="t">'+it[1]+'</span>':'')+'</div></li>').join('')+'</ul>'+(sc.outro?'<p class="sm" style="margin-top:.7rem">'+sc.outro+'</p>':''))}
  else if(sc.type==='cards'){sec(d,lbl(sc.label)+'<h2>'+sc.title+'</h2>'+(sc.intro?'<p class="sm" style="margin-bottom:.7rem">'+sc.intro+'</p>':'')+sc.items.map(it=>'<div class="card">'+(it[2]?'<span class="tag">'+it[2]+'</span>':'')+'<b>'+it[0]+'</b><span>'+it[1]+'</span></div>').join('')+(sc.outro?'<p class="sm">'+sc.outro+'</p>':''))}

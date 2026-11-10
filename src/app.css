@@ -23,6 +23,8 @@ p{font-size:1.02rem;line-height:1.5}
 .cover .in{position:relative;margin-top:auto;margin-bottom:0}
 .cover h1{font-size:3rem;margin:.9rem 0}
 .cover .brand{font-family:var(--fd);font-size:1.15rem;letter-spacing:.12em;text-transform:uppercase;color:var(--acc)}
+.cover .mk{display:block;height:3.6rem;width:auto;max-width:100%;margin-top:1.2rem;background:#fff;border-radius:12px;padding:.45rem .75rem}
+.cover .mk+.by{margin-top:.8rem}
 .cover .by{margin-top:1.2rem;font-size:.9rem;color:#e6d8bd;border-top:1px solid rgba(255,255,255,.25);padding-top:.8rem}
 .sig{font-family:var(--fd);font-style:italic;font-size:1.4rem;color:var(--acc2);margin-top:1rem}
 .li{list-style:none}

@@ -27,8 +27,9 @@
    "brand": "Les Bains de Sherazade",
    "title": "Ton institut,<br><em>l'IA en main.</em>",
    "text": "5 minutes pour voir ce qu'on peut faire ensemble, puis quelques questions pour savoir ce que tu veux vraiment.",
-   "by": "Préparé pour toi par Nolan Di Liegro · IA EN MAIN · novembre 2026",
-   "img": "https://lesbainsdesherazade.fr/assets/images/IMG_7739.jpg"
+   "by": "Préparé pour toi par Nolan Di Liegro · novembre 2026",
+   "img": "https://lesbainsdesherazade.fr/assets/images/IMG_7739.jpg",
+   "logo": "../media/brand/ia-en-main-horizontal.svg"
   },
   {
    "type": "text",
