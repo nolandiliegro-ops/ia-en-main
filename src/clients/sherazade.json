@@ -152,31 +152,31 @@
    "dark": true,
    "numbered": true,
    "label": "Des clients qui arrivent",
-   "title": "Ta pub Meta, <em>en pilote automatique</em>",
-   "intro": "Mon point fort : l'acquisition sur Facebook et Instagram, branchée et automatisée de bout en bout.",
+   "title": "Ta pub Meta et Google, <em>en pilote automatique</em>",
+   "intro": "Mon point fort : l'acquisition, branchée et automatisée de bout en bout.",
    "items": [
     [
-     "Tes visuels et tes Reels deviennent des pubs",
-     "faits à partir de tes photos, à tes couleurs"
+     "Tes Reels deviennent des pubs",
+     "Facebook et Instagram, à tes couleurs"
     ],
     [
-     "Ciblées sur Marseille et ta clientèle",
-     "femmes, couples, cartes cadeaux à l'approche des fêtes"
+     "En tête sur Google",
+     "Google Ads et ta fiche Google Business optimisée"
+    ],
+    [
+     "Ciblées sur ta clientèle",
+     "Marseille, femmes, couples, cartes cadeaux"
     ],
     [
      "Chaque demande suivie",
-     "elle arrive dans ton tableau de bord et elle est relancée automatiquement"
+     "dans ton tableau de bord, relancée automatiquement"
     ],
     [
      "Un rapport chaque lundi",
-     "ce que tu as dépensé, ce que ça t'a ramené"
-    ],
-    [
-     "On coupe ce qui ne marche pas",
-     "le budget va aux pubs qui remplissent tes créneaux"
+     "dépensé, rapporté ; on coupe ce qui ne marche pas"
     ]
    ],
-   "outro": "Le budget pub est payé directement à Meta, sur ton compte."
+   "outro": "Le budget pub est payé directement à Meta et à Google, sur ton compte."
   },
   {
    "type": "dash2",
@@ -503,11 +503,11 @@
     "tag": "À la carte · sur devis",
     "items": [
      "Ton génie : un agent IA à ton image",
-     "Publicités Meta automatisées (Facebook, Instagram)",
+     "Publicités Meta et Google Ads automatisées",
+     "Fiche Google Business optimisée, réponses aux avis",
      "Tableau de bord sur mesure",
      "Reels et vidéos automatiques, ambassadrice IA",
-     "Mails triés, relances clients et demandes d'avis",
-     "Agent vocal sur mesure, site et fiche Google"
+     "Mails triés, relances, agent vocal, site relié"
     ]
    }
   },
@@ -558,10 +558,10 @@
     "Ambassadrice IA",
     "Photos pro de mes soins",
     "Faire revenir les clients",
-    "Demander des avis",
+    "Demander et répondre aux avis",
     "Mes mails triés tout seuls",
     "Tableau de bord",
-    "Pubs Facebook et Insta qui ramènent des clients"
+    "Pubs Facebook, Insta et Google"
    ]
   },
   {
